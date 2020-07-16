@@ -49,6 +49,19 @@
         person[selection] = 'Md. Mokammal Hossen Farnan'
         console.log(person.name)
 
+	// Create an object (older method)
+	var person = {
+	  firstName: "John",
+	  lastName : "Doe",
+	  id     : 5566,
+	  fullName : function() {
+	    return this.firstName + " " + this.lastName;
+	  }
+	};
+
+	// Display data from the object:
+	document.getElementById("demo").innerHTML = person.fullName;
+
 //array
 		let selectColour = ['cricket' , 'football']
 		selectColour[1] = 'tennis'
