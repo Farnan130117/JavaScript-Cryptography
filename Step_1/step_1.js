@@ -113,4 +113,20 @@ console.log(`${person2.first_name} ${person2.last_name}`);
         }
         let number = square(4);
         console.log(number)
+//get elelment by id
+<!DOCTYPE html>
+<html>
+<body>
 
+<p id="demo">Click the button to change the text in this paragraph.</p>
+
+<button onclick="myFunction()">Try it</button>
+
+<script>
+function myFunction() {
+  document.getElementById("demo").innerHTML = "Hello World";
+}
+</script>
+
+</body>
+</html>
